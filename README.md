@@ -57,15 +57,18 @@ FER_Project
 ### 1️⃣ Enable GPU
 
 Top menu:
-
+```
 Runtime → Change runtime type → GPU → Save
 OR
 Runtime → Change runtime type → Select **T4 GPU**
+```
 
 Check GPU:
-
+```bash
 import tensorflow as tf
 print("GPU:", tf.config.list_physical_devices('GPU'))
+```
+
 
 
 ### 2️⃣ Upload FER2013 Dataset (Image Version)
@@ -74,11 +77,13 @@ Download FER2013 dataset from kaggle
 https://www.kaggle.com/datasets/msambare/fer2013?resource=download
 
 Upload the ZIP to Colab
-
+```
 Left sidebar → Files → Upload → upload the entire fer2013 zip
+```
 
 After upload, run this cell:
 
+```bash
 import zipfile
 
 zip_path = "archive.zip"   # rename if your zip name is different
@@ -86,12 +91,16 @@ with zipfile.ZipFile(zip_path, 'r') as zip_ref:
     zip_ref.extractall()
 
 print("Dataset extracted")
+```
+
 
 
 After extraction you should see:
 
+```
 train/
 test/
+```
 
 Dataset structure used:
 
@@ -128,8 +137,9 @@ https://colab.research.google.com/drive/1vtAyl9wDDHQ54Sp-cnB1ueyCsiQ563Xm?usp=sh
 TensorFlow requires Python **3.10**
 
 Download:
-https://www.python.org/downloads/release/python-3109/
+https://www.python.org/downloads/windows/
 
+Exact version - https://www.python.org/ftp/python/3.10.9/python-3.10.9-amd64.exe
 ---
 
 ## 🐍 Step 3 — Create Virtual Environment
