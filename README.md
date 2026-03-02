@@ -179,7 +179,12 @@ Press **Q** to exit webcam.
 ---
 
 ### Output
-![WhatsApp Image 2026-03-02 at 6 31 31 AM](https://github.com/user-attachments/assets/a05d9b62-043f-414a-b2c7-56ba1f8bc6ca)
+
+![WhatsApp Image 2026-03-02 at 6 30 13 AM](https://github.com/user-attachments/assets/8c2abd49-a6a1-4cad-bd75-cba39552bbac)
+![WhatsApp Image 2026-03-02 at 6 30 51 AM](https://github.com/user-attachments/assets/d13cb99e-d64d-400f-8427-69155983b638)
+![WhatsApp Image 2026-03-02 at 6 31 31 AM](https://github.com/user-attachments/assets/9721d94a-fe42-442f-a9e9-aafb84e41904)
+
+
 
 
 ## ⚡ Performance Optimizations Implemented
